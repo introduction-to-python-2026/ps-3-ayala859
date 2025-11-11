@@ -7,4 +7,5 @@ def approximate_pi(n_terms):
   pi = 4 * pi_approximation
   return pi
 n_terms = 1000
-approximate_pi(n_terms)
+result = approximate_pi(n_terms)
+print(result)
